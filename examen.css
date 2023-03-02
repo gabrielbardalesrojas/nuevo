@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background-image: url("https://www.xtrafondos.com/wallpapers/paisaje-digital-en-atardecer-5846.jpg");
+    
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     width: 400px;
+     border-radius: 40px;
+    background: transparent;
+    border: 4px solid rgb(252, 195, 25);
+}
+.cuadrito{
+    border: 5px solid rgb(253, 207, 22);
+    border-radius: 40px;
+}
+.center h1{
+    text-align: center;
+    padding: 0 0 5px 0;
+    border-bottom: 4px solid silver;
+color: white;
+}
+.center h2{
+    color: white;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .modi{
+position: relative;
+border-bottom: 2px solid #adadad;
+margin: 10px 0;
+
+
+}
+.modi input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: 4px solid black;
+    background: rgb(253, 254, 251);
+    outline: none;
+}
+.modi label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translate(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .6s;
+    border: 4px solid blacks;
+}
+.pas{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+
+}
+.recapchat{
+    background:rgb(28, 235, 69);
+    border: 2px solid black;
+    padding: 0 100px;
+}
+img{
+width: 20;
+position: fixed;
+}
